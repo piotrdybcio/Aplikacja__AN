@@ -48,7 +48,6 @@ public class connection {
             Logger.getLogger(ekran.class.getName()).log(Level.SEVERE, null, ex);
                                                          }
                 if(con==null){
-                 //con = DriverManager.getConnection("jdbc:oracle:thin:@ora3.elka.pw.edu.pl:1521:ora3inf","pdybcio","pdybcio");
                 con = DriverManager.getConnection("jdbc:oracle:thin:@" + hostname+":"+port+":"+SID ,login, password);
 
                 jTextArea1.append("Połączono w watku\n");
@@ -86,7 +85,6 @@ public class connection {
             Logger.getLogger(ekran.class.getName()).log(Level.SEVERE, null, ex);
                                                          }
                 if(con_w==null){
-                 //con = DriverManager.getConnection("jdbc:oracle:thin:@ora3.elka.pw.edu.pl:1521:ora3inf","pdybcio","pdybcio");
                 con_w = DriverManager.getConnection("jdbc:oracle:thin:@" + hostname+":"+port+":"+SID ,login, password);
 
                // jTextArea1.append("Połączono w watku\n");
