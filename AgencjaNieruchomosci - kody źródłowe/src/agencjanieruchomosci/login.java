@@ -179,7 +179,6 @@ public class login extends javax.swing.JFrame {
             try{
          //***************************************************************************************
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            con = DriverManager.getConnection("jdbc:oracle:thin:@ora3.elka.pw.edu.pl:1521:ora3inf","pdybcio","pdybcio");
             
 // Getting result meta data
 
