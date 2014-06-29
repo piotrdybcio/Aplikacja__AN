@@ -290,7 +290,6 @@ public class ekran extends javax.swing.JFrame {
 //
 //// Obtaining a connection to SQL Server
 //      //if(con==null){
-//      //con = DriverManager.getConnection("jdbc:oracle:thin:@ora3.elka.pw.edu.pl:1521:ora3inf","pdybcio","pdybcio");
 //      //jTextArea1.append("Połączono automatycznie \n");
 //      //}
 //// Getting result meta data
